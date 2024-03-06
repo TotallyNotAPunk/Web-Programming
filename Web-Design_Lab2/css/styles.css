@@ -870,3 +870,132 @@ p {
   }
 }
 
+@media screen and (max-width: 765px) {
+  a {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 19px;
+  }
+
+  .hero_section .hero_section__left .left__cta_buttons input[type="text"] {
+    min-width: auto;
+  }
+
+  .future_here {
+    row-gap: 3rem;
+  }
+
+  .future_here .future_here__right .right__container {
+    flex-direction: column;
+  }
+
+  .future_here .future_here__right .right__container .container__header {
+    width: 100%;
+  }
+
+  .future_here .future_here__right .right__container .container__content {
+    width: 100%;
+  }
+
+  .future_here .future_here__right {
+    row-gap: 2rem;
+  }
+
+  .blog_section .main_news {
+    flex-direction: column !important;
+    margin: auto;
+  }
+
+  .blog_section .main_news .content_main_news {
+    width: 328px !important;
+    height: 350px;
+  }
+
+  .blog_section .all_other_news {
+    flex-direction: column !important;
+  }
+
+  .footer {
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+
+  .footer .columm_menu {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer .footer_menu {
+    margin: auto;
+  }
+
+  .header .header__right .menu__close {
+    right: 0;
+    top: -180px;
+  }
+
+  .blog_section {
+    margin-top: 0;
+  }
+
+  .footer {
+    margin: 0;
+  }
+
+  .exceeding_all_expectations {
+    padding: 0 50px 0 50px;
+  }
+
+  .exceeding_all_expectations .exceeding_all_expectations_section_right .left__cta {
+    text-align: center;
+  }
+
+  .registration {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer .footer_menu .columm_menu {
+    align-items: center;
+  }
+
+  .registration {
+    flex-direction: column;
+    row-gap: 10px;
+    width: 95%;
+  }
+
+  .registration .registration_content_left {
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .registration .registration_content_left h3 {
+    width: 100% !important;
+  }
+
+  .registration .registration_button_right {
+    align-items: center;
+  }
+
+  .exceeding_all_expectations {
+    padding: 0 50px 0 50px;
+  }
+
+  .exceeding_all_expectations .exceeding_all_expectations_section_right .left__cta {
+    text-align: center;
+  }
+}
